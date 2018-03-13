@@ -497,6 +497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container .background {
   min-height: 280px;
   background: url(../img/Custom/elections.png) center top no-repeat;
+  background-size: 330px;
   margin-top: 100px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -568,6 +569,93 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/* About1 Us Section
+--------------------------------*/
+#about1 {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#about1 .about-container .background {
+  min-height: 280px;
+  background: url(../img/Custom/elections.png) center top no-repeat;
+  background-size: 330px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: -10px;
+}
+
+#about1 .about-container .background1 {
+  min-height: 280px;
+  background: url(../img/Custom/BC.png) center top no-repeat;
+  background-size:600px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+
+}
+
+#about1 .about-container .content {
+  background: #fff;
+}
+
+#about1 .about-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #about1 .about-container .title {
+    padding-top: 15px;
+  }
+}
+
+#about1 .about-container p {
+  line-height: 26px;
+}
+
+#about1 .about-container p:last-child {
+  margin-bottom: 0;
+}
+
+#about1 .about-container .icon-box {
+  background: #fff;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+#about1 .about-container .icon-box .icon {
+  float: left;
+  background: #fff;
+  padding: 16px;
+  border-radius: 50%;
+  border: 2px solid #2dc997;
+}
+
+#about1 .about-container .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#about1 .about-container .icon-box .title {
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#about1 .about-container .icon-box .title a {
+  color: #111;
+}
+
+#about1 .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
@@ -656,6 +744,73 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Services Section
+--------------------------------*/
+#services1 {
+  background: #fff;
+  background-size: cover;
+  padding: 80px 0 10px 0;
+}
+
+#services1 .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 100px;
+  position: relative;
+  background: #fafafa;
+}
+
+#services1 .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  display: inline-block;
+  border: 6px solid #fff;
+}
+
+#services1 .icon a {
+  display: inline-block;
+  background: #2dc997;
+  border: 2px solid #2dc997;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#services1 .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#services1 .box:hover .icon i {
+  color: #2dc997;
+}
+
+#services1 .box:hover .icon a {
+  color: #2dc997;
+  background: #fff;
+}
+
+#services1 .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#services1 .title a {
+  color: #111;
+}
+
+#services1 .description {
   font-size: 14px;
   line-height: 24px;
 }
