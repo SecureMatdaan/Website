@@ -1,9 +1,3 @@
-/*
-  Theme Name: Regna
-  Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -509,6 +503,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: -10px;
 }
 
+#about .about-container .background1 {
+  min-height: 280px;
+  background: url(../img/Custom/BC.png) center top no-repeat;
+  background-size:600px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+
+}
+
 #about .about-container .content {
   background: #fff;
 }
@@ -573,7 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: #efefef;
+  background: #f2f2f2;
   padding: 80px 0 60px 0;
 }
 
@@ -595,7 +598,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services {
   background: #fff;
   background-size: cover;
-  padding: 80px 0 60px 0;
+  padding: 80px 0 10px 0;
 }
 
 #services .box {
@@ -878,11 +881,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 5px;
 }
 
-#contact .social-links {
+#footer .social-links {
   padding-bottom: 20px;
 }
 
-#contact .social-links a {
+#footer .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #333;
@@ -896,7 +899,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
-#contact .social-links a:hover {
+#footer .social-links a:hover {
   background: #2dc997;
   color: #fff;
 }
